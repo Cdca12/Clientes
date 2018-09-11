@@ -51,7 +51,7 @@ public class Clientes {
 
                     break;
                 case 3: // Consultas
-                  
+
                     break;
                 case 4: // Salir
                     System.out.println("Ha finalizado el programa correctamente.");
