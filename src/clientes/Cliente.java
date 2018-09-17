@@ -11,5 +11,14 @@ public class Cliente {
     int edad;
     char estadoCivil;
     int siguiente;
-
+    
+    public String toString() {
+        return "Clave: " + clave + 
+                " | Nombre: " + nombre + 
+                " | Edad: " + edad +
+                " | Estado Civil: " + estadoCivil +
+                " | Siguiente: " + siguiente; // Referencia
+                
+    }
+    
 }
